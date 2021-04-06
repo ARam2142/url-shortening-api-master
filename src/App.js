@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+// import Header from './components/header/header.js';
+import Container from './components/container/container.js';
+import FirstGrid from './components/FirstGrid/firstgrid';
+import SecondGrid from './components/SecondGrid/secondgrid.js';
+import ThirdGrid from './components/ThirdGrid/thirdgrid.js';
+import FourthGrid from './components/FourthGrid/fourthgrid.js';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <FirstGrid />
+      <SecondGrid />
+      <ThirdGrid />
+      <FourthGrid />
+    </Container>
+
   );
 }
 
