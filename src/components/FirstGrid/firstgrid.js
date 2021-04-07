@@ -2,9 +2,10 @@ import React from 'react';
 import Header from "../header/header.js";
 import Button from 'react-bootstrap/Button'
 // import Image from 'react-bootstrap/Image';
-import DeskWorkPic from "./images/ilustration-working.svg";
+// import DeskWorkPic from './images/illustration-working.svg';
+// import DeskWorkPic from './logo.js';
 
-function FirstGrid() {
+const FirstGrid = () => {
     return (
         <div className="item-1">
             <Header />
@@ -19,7 +20,7 @@ function FirstGrid() {
                 </div>
                 <div class="col-4">
                     <div>
-                        <img src={DeskWorkPic} alt="deskwork" />
+                        {/* <DeskWorkPic /> */}
                     </div>
                 </div>
             </div>

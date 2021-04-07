@@ -1,0 +1,44 @@
+.footer {
+    background-color:hsl(260, 8%, 14%);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    padding: 40px;
+
+}
+
+.title {
+    color: white;
+    font-weight: 700;
+}
+
+.features {
+    color: white;
+}
+
+.resources {
+    color: white;
+}
+
+.company {
+    color: white;
+}
+
+a.nav-link {
+    color: hsl(0, 0%, 75%);
+    line-height: normal;
+}
+
+a:hover {
+    color: hsl(180, 66%, 49%)
+}
+
+.icons.nav-items {
+    padding-right: 5px;    
+}
+
+i {
+    color: white;
+}

@@ -2,10 +2,10 @@ import React from "react";
 
 function Container(props) {
     return (
-        <div className="container" style={{"paddingTop": '20px'}}>
+        <div className="container-fluid" >
             {props.children}
         </div>
     )
 }
 
-export default Container
+export default Container;
