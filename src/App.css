@@ -1,12 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
 html{
-  /* height: 100%; */
+  height: 100%;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  padding: 20px;
-  min-width: 100%;
+}
+
+.grid-container {
+  height: 100vh;
   display: grid;
-  grid-template-rows: 1fr auto;
+  grid-template-rows: auto 1fr auto;
+
 }

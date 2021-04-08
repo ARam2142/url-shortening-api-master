@@ -1,0 +1,15 @@
+.link {
+    background-color: hsl(257, 27%, 26%);
+    width: 100%;
+    padding: 40px;
+    height: 200px;
+}
+
+.links-title {
+    color: white;
+    text-align: center;
+}
+
+/* .boostlinks {
+    text-align: center;
+} */
