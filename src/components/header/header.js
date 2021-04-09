@@ -32,20 +32,6 @@ const Header = () => {
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign Up</button>
         </div>
       </nav>
-
-
-      <h1>More than just shorter links</h1>
-      <div className="row">
-        <div className="col">
-          <p>Build your brand’s recognition and get detailed insights on how your links are performing.</p>
-          <button variant="info">Get Started</button>{' '}
-        </div>
-        <div class="col-4">
-          <div>
-            {/* <DeskWorkPic /> */}
-          </div>
-        </div>
-      </div>
     </div>
   )
 }

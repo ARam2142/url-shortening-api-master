@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/header/Header'
+import Hero from "../components/hero/Hero";
 import Input from '../components/input/inputApi';
 import BoostLinks from "../components/boostlinks/BoostLinks"
 import Statistics from "../components/statistics/Statistics"
@@ -9,6 +10,7 @@ function Home() {
     return (
         <div className="grid-container">
             <Header />
+            <Hero />
             <Input />
             <Statistics />
             <BoostLinks />
