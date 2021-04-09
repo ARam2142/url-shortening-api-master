@@ -11,10 +11,10 @@ function Footer() {
 
                     <br />
                     <br />
-                    <div class="col-md-4 title">
+                    <div class="col-md-4 shortly">
                         <h2>Shortly</h2>
                     </div>
-                    <div class="col-2">
+                    <div class="col-sm options">
                         <ul class="navbar-nav">
                             <li class="nav-item active features" style={{ 'marginBottom': '15px' }}>Features</li>
                             <li class="nav-item active"><a class="nav-link" href="#">Link Shortening</a></li>
@@ -22,7 +22,7 @@ function Footer() {
                             <li class="nav-item active"><a class="nav-link" href="#">Analytics</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm options">
                         <ul class="navbar-nav">
                             <li class="nav-item active resources" style={{ 'marginBottom': '15px' }}>Resources</li>
                             <li class="nav-item active"><a class="nav-link" href="#">Blog</a></li>
@@ -30,7 +30,7 @@ function Footer() {
                             <li class="nav-item active"><a class="nav-link" href="#">Support</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm options">
                         <ul class="navbar-nav">
                             <li class="nav-item active company" style={{ 'marginBottom': '15px' }}>Company</li>
                             <li class="nav-item active"><a class="nav-link" href="#">About</a></li>

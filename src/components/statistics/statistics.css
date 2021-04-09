@@ -1,0 +1,42 @@
+.card {
+    padding: 10px;
+}
+
+.statistics {
+    background-color: hsl(267, 27%, 94%)
+}
+
+.advance {
+    text-align: center;
+    font-weight: 700;
+}
+
+.sentence {
+    text-align: center;
+    color: hsl(257, 7%, 63%)
+}
+
+h5.card-title {
+    font-weight: 700;
+}
+
+.card-text {
+    color: hsl(257, 7%, 63%);
+}
+
+@media (max-width: 675px) {
+    .three-cards {
+        text-align: center;
+        padding: 10px;
+        margin-left: 45px;
+    }
+
+    /* .card-body {
+        padding-top: 50px;
+    } */
+
+    .p-2.col {
+        margin-bottom: 60px;
+        /* margin-left: 60px; */
+    }
+}

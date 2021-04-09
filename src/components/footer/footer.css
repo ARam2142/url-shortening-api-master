@@ -6,9 +6,23 @@
 
 }
 
-.title {
+@media (max-width: 375px) {
+    .shortly {
+        text-align: center;
+    }
+    
+}
+
+.shortly{
     color: white;
     font-weight: 700;
+    text-align: none;
+}
+
+@media (max-width: 375px) {
+    .options {
+        text-align: center;
+    }
 }
 
 .features {
@@ -34,6 +48,12 @@ a:hover {
 
 .icons.nav-items {
     padding-right: 5px;    
+}
+
+@media (max-width: 375px) {
+    .icons {
+        padding: 30px;
+    }
 }
 
 i {
