@@ -1,4 +1,5 @@
 import React from "react";
+import './Hero.css'
 import illustrationWorking from "../images/illustration-working.svg"
 
 const Hero = () => {
@@ -14,12 +15,16 @@ const Hero = () => {
                     </div>
                     <div className="col">
                         <img
+                            className="illustration"
                             loading={'lazy'}
                             src={illustrationWorking}
                             alt={'Illustration Working'}
+                            // height={'740'}
+                            // width={'600'}
                         />
                     </div>
                 </div>
+
 
             </div>
         </section>

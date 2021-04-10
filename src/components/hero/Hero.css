@@ -1,0 +1,10 @@
+img.illustration {
+    /* position: absolute; */
+    object-fit: cover;
+    object-position: left;
+}
+
+img:hover{
+    clip: rect(0px,60px,200px,0px);
+}
+
