@@ -11,8 +11,8 @@ function App() {
     <div>
       <Header />
       <Hero />
-      <BoostLinks />
       <Statistics />
+      <BoostLinks />
       <Footer />
     </div>
 

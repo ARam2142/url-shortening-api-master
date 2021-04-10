@@ -1,5 +1,6 @@
 .link {
     background-color: hsl(257, 27%, 26%);
+    background-image: url('../images/bg-boost-desktop.svg');
     width: 100%;
     padding-top: 50px;
     height: 200px;
@@ -8,13 +9,22 @@
 .links-title {
     color: white;
     text-align: center;
+    font-weight: 700;
 }
 
-@media (max-width: 440px) {
+.get-started {   
+    background-color: hsl(180, 66%, 49%);
+    border: none;
+    padding:0.6em 2.5em;
+    border-radius: 2em;
+}
+
+span {
+    font-weight: 700;
+}
+
+@media (max-width: 772px) {
     .start-btn {
         text-align: center;
     }
 }
-/* .boostlinks {
-    text-align: center;
-} */

@@ -2,7 +2,7 @@
     padding: 10px;
 }
 
-.statistics {
+div.hero {
     background-color: hsl(267, 27%, 94%)
 }
 
@@ -24,15 +24,27 @@ h5.card-title {
     color: hsl(257, 7%, 63%);
 }
 
-@media (max-width: 675px) {
+.circle {
+    background-color: hsl(257, 27%, 26%);
+    width: 55px;
+    height: 55px;
+    padding: 12px;
+    display: flex;
+    border-radius: 50%;
+}
+
+.circle img {
+    width: 26px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 772px) {
     .three-cards {
         text-align: center;
+        justify-content: center;
         padding: 10px;
-        margin-left: 45px;
-    }
-
-    .p-2.col {
-        margin-bottom: 60px;
-        /* margin-left: 60px; */
+        /* margin-left: 45px; */
     }
 }

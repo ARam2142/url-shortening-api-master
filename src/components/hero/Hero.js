@@ -14,14 +14,14 @@ const Hero = () => {
                         <button variant="info">Get Started</button>{' '}
                     </div>
                     <div className="col">
-                        <img
+                        {/* <img
                             className="illustration"
                             loading={'lazy'}
                             src={illustrationWorking}
                             alt={'Illustration Working'}
                             // height={'740'}
                             // width={'600'}
-                        />
+                        /> */}
                     </div>
                 </div>
 

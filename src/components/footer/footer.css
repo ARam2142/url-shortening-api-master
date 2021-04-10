@@ -6,9 +6,16 @@
 
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 789px) {
+    .footer {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 567px) {
     .shortly {
         text-align: center;
+        padding-bottom: 40px;
     }
     
 }
@@ -19,7 +26,7 @@
     text-align: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 567px) {
     .options {
         text-align: center;
     }
@@ -27,14 +34,17 @@
 
 .features {
     color: white;
+    font-weight: 600;
 }
 
 .resources {
     color: white;
+    font-weight: 600;
 }
 
 .company {
     color: white;
+    font-weight: 600;
 }
 
 a.nav-link {
@@ -50,12 +60,18 @@ a:hover {
     padding-right: 5px;    
 }
 
-@media (max-width: 375px) {
+@media (max-width: 567px) {
     .icons {
-        padding: 30px;
+        padding: 35px;
+        justify-content: center;
     }
+
 }
 
 i {
     color: white;
+}
+
+i:hover {
+    color: hsl(180, 66%, 49%)
 }

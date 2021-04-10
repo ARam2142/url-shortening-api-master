@@ -1,10 +1,13 @@
 import React from 'react';
 // import Jumbotron from 'react-bootstrap/Jumbotron'
+import Recognition from "../images/icon-brand-recognition.svg";
+import Records from "../images/icon-detailed-records.svg"
+import Customizable from "../images/icon-fully-customizable.svg"
 import './statistics.css'
 
 function Statistics() {
     return (
-        <div className="statistics">
+        <div className="hero">
             <div className="container">
 
                 <br />
@@ -17,6 +20,9 @@ function Statistics() {
 
                 <div class="row row-cols-1 d-grid row-cols-md-3 g-2 three-cards">
                     <div class="p-2 col">
+                        <div class="circle">
+                            <img src={Recognition} alt="brand-recognition" />
+                        </div>
                         <div class="card" style={{ width: "23rem" }}>
                             <div class="card-body">
                                 <h5 class="card-title">Brand Recognition</h5>
@@ -24,7 +30,10 @@ function Statistics() {
                             </div>
                         </div>
                     </div>
-                    <div class="p-2 col">
+                    <div id="p-2 col">
+                        <div className="circle">
+                            <img src={Records} alt="detailed-records" />
+                        </div>
                         <div class="card" style={{ width: "23rem" }}>
                             <div class="card-body">
                                 <h5 class="card-title">Detailed Records</h5>
@@ -33,6 +42,9 @@ function Statistics() {
                         </div>
                     </div>
                     <div class="p-2 col">
+                        <div className="circle">
+                            <img src={Customizable} alt="detailed-records" />
+                        </div>
                         <div class="card" style={{ width: "23rem" }}>
                             <div class="card-body">
                                 <h5 class="card-title">Fully Customizable</h5>
