@@ -1,3 +1,22 @@
-ol.right {
-    text-align: right
-};
+
+a.shortly {
+    font-size: x-large;
+}
+
+ul.choices {
+    font-size: smaller;
+    /* font-weight: 600; */
+}
+
+.nav-link.login {
+    font-size: smaller;
+}
+
+button.sign-up {
+    background-color: hsl(180, 66%, 49%);
+    border-color: hsl(180, 66%, 49%);
+    padding: 10px 15px 10px 15px;
+    border-radius: 30%;
+    border-style: hidden;
+    color: white;
+}
