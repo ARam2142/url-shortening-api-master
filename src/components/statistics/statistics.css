@@ -1,5 +1,8 @@
 .card {
     padding: 10px;
+    padding-top: 40px;
+    position: relative;
+    z-index: 1;
 }
 
 div.hero {
@@ -26,15 +29,19 @@ h5.card-title {
 
 .circle {
     background-color: hsl(257, 27%, 26%);
-    width: 55px;
-    height: 55px;
+    width: 65px;
+    height: 65px;
     padding: 12px;
     display: flex;
     border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+    top: -1em;
+    left: 2em;
 }
 
 .circle img {
-    width: 26px;
+    width: 30px;
     height: auto;
     display: block;
     margin: auto;

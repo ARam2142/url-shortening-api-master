@@ -20,7 +20,7 @@ function Statistics() {
 
                 <div class="row row-cols-1 d-grid row-cols-md-3 g-2 three-cards">
                     <div class="p-2 col">
-                        <div class="circle">
+                        <div className="circle">
                             <img src={Recognition} alt="brand-recognition" />
                         </div>
                         <div class="card" style={{ width: "23rem" }}>
@@ -30,7 +30,7 @@ function Statistics() {
                             </div>
                         </div>
                     </div>
-                    <div id="p-2 col">
+                    <div class="p-2 col">
                         <div className="circle">
                             <img src={Records} alt="detailed-records" />
                         </div>
