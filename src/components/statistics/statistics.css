@@ -3,6 +3,7 @@
     padding-top: 40px;
     position: relative;
     z-index: 1;
+    width: 23rem;
 }
 
 div.hero {
@@ -29,8 +30,8 @@ h5.card-title {
 
 .circle {
     background-color: hsl(257, 27%, 26%);
-    width: 65px;
-    height: 65px;
+    width: 70px;
+    height: 70px;
     padding: 12px;
     display: flex;
     border-radius: 50%;
@@ -41,7 +42,7 @@ h5.card-title {
 }
 
 .circle img {
-    width: 30px;
+    width: 34px;
     height: auto;
     display: block;
     margin: auto;
@@ -52,6 +53,37 @@ h5.card-title {
         text-align: center;
         justify-content: center;
         padding: 10px;
-        /* margin-left: 45px; */
+    }
+    
+    .col {
+        margin-top: 30px !important;
+        place-items: center;        
+    }
+
+    .circle {
+        padding: 12px;
+        display: flex;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 3;
+        left: 10rem;
+    }
+
+    .circle img {
+        width: 34px;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
+    /* .card {
+        width: none !important;
+        margin-top: 0;
+    } */
+}
+
+@media (min-width: 756px) and (max-width: 1064px) {
+    .card {
+        width: 15rem;
     }
 }
