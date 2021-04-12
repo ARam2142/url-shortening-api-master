@@ -30,7 +30,7 @@ const Header = () => {
             <span class="nav-item ">
               <a className="nav-link login" href="#">Login</a>
             </span>
-            <button class="header-btn sign-up" type="submit">Sign Up</button>
+            <button class="btn btn-primary sign-up" type="submit"><span>Sign Up</span></button>
           </div>
         </nav>
       </div>

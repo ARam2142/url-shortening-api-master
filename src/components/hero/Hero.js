@@ -3,25 +3,29 @@ import './Hero.css'
 import illustrationWorking from "../images/illustration-working.svg"
 
 const Hero = () => {
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+</style>
+
     return (
 
         <section className={'hero'}>
             <div className={'container'}>
-                <h1>More than just shorter links</h1>
                 <div className="row">
-                    <div className="col">
+                    <div className="col-4">
+                        <h1>More than just shorter links</h1>
                         <p>Build your brand’s recognition and get detailed insights on how your links are performing.</p>
-                        <button variant="info">Get Started</button>{' '}
+                        <button class="btn btn-primary get-started" type="submit"><span>Get Started</span></button>
                     </div>
-                    <div className="col">
-                        {/* <img
-                            className="illustration"
+                    <div className="col illustation">
+                        <img
+                            id={'working'}
                             loading={'lazy'}
                             src={illustrationWorking}
                             alt={'Illustration Working'}
-                            // height={'740'}
-                            // width={'600'}
-                        /> */}
+                            // height={'200'}
+                            // width={'80'}
+                        />
                     </div>
                 </div>
 

@@ -75,15 +75,11 @@ h5.card-title {
         display: block;
         margin: auto;
     }
-
-    /* .card {
-        width: none !important;
-        margin-top: 0;
-    } */
 }
 
-@media (min-width: 756px) and (max-width: 1064px) {
+@media (min-width: 764px) and (max-width: 1064px) {
     .card {
         width: 15rem;
+        justify-content: center;
     }
 }

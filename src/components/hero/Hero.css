@@ -1,10 +1,29 @@
-img.illustration {
-    /* position: absolute; */
-    object-fit: cover;
-    object-position: left;
+
+div.col.illustration {
+    position: relative;
+    min-width: 100vh;
 }
 
-img:hover{
-    clip: rect(0px,60px,200px,0px);
+img#working {
+    position:absolute;
+    /* right: 0;
+    clip:rect(100px,60px,200px,0px); */
+}
+
+p {
+    color: hsl(257, 7%, 63%);
+    font-size: small;
+    font-weight: lighter;
+}
+
+.get-started{   
+    background-color: hsl(180, 66%, 49%);
+    border: none;
+    padding:2em 3em;
+    border-radius: 2em;
+}
+
+button.get-started:hover {
+    background-color: rgb(156, 225, 247);
 }
 
