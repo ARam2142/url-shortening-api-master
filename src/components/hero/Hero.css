@@ -29,10 +29,17 @@ button.get-started:hover {
     background-color: hsl(257, 27%, 26%);
     background-image: url('../images/bg-boost-desktop.svg');
     border-radius: 5px;
+    padding: 20px;
+    position: absolute;
+    width: 60%;
+    z-index: 3;
+    top: 12.5em;
+    right: 12em;
+    text-align: center;
 }
 
 input {
-    width: 70%;
+    width: 60%;
     margin-right: 10px;
     height: 37px;
     border-radius: 7px;

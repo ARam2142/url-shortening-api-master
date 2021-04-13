@@ -1,14 +1,11 @@
 import React from "react";
 import './Hero.css'
-import Form from 'react-bootstrap/Form';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
+// import Form from 'react-bootstrap/Form';
+// import Col from 'react-bootstrap/Col';
+// import Button from 'react-bootstrap/Button';
 import illustrationWorking from "../images/illustration-working.svg"
 
 const Hero = () => {
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-</style>
 
     return (
 
@@ -32,13 +29,13 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div className="formbackground">
+                {/* <div className="formbackground">
                     <form>
                         <input placeholder="Shorten a link here..." type="text"></input>
                         <button class="btn btn-primary shorten-it" type="submit"><span>Shorten It!</span></button>
                     </form>
 
-                </div>
+                </div> */}
 
 
             </div>
