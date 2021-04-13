@@ -1,13 +1,11 @@
 
 div.col.illustration {
     position: relative;
-    min-width: 100vh;
 }
 
 img#working {
     position:absolute;
-    /* right: 0;
-    clip:rect(100px,60px,200px,0px); */
+    clip:rect(0px,600px,500px,0px);
 }
 
 p {
@@ -25,5 +23,25 @@ p {
 
 button.get-started:hover {
     background-color: rgb(156, 225, 247);
+}
+
+.formbackground {
+    background-color: hsl(257, 27%, 26%);
+    background-image: url('../images/bg-boost-desktop.svg');
+    border-radius: 5px;
+}
+
+input {
+    width: 70%;
+    margin-right: 10px;
+    height: 37px;
+    border-radius: 7px;
+}
+
+.shorten-it {
+    margin-bottom: 3px;
+    background-color: hsl(180, 66%, 49%);
+    border-color: none;
+    border-style: none;
 }
 
