@@ -4,15 +4,15 @@
     border-radius: 5px;
     padding: 20px;
     position: absolute;
-    width: 60%;
+    width: 50%;
     z-index: 3;
     top: 12.5em;
-    right: 12em;
+    right: 14em;
     text-align: center;
 }
 
 input {
-    width: 60%;
+    width: 70%;
     margin-right: 10px;
     height: 37px;
     border-radius: 7px;
@@ -23,4 +23,8 @@ input {
     background-color: hsl(180, 66%, 49%);
     border-color: none;
     border-style: none;
+}
+
+@media (max-width: 972px) {
+
 }

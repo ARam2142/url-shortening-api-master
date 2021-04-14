@@ -15,7 +15,7 @@ const Hero = () => {
                     <div className="col-4">
                         <h1>More than just shorter links</h1>
                         <p>Build your brand’s recognition and get detailed insights on how your links are performing.</p>
-                        <button class="btn btn-primary get-started" type="submit"><span>Get Started</span></button>
+                        <button className="btn btn-primary get-started" type="submit"><span>Get Started</span></button>
                     </div>
                     <div className="col illustation">
                         {/* <img

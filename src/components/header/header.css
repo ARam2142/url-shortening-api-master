@@ -3,9 +3,16 @@ a.shortly {
     font-size: x-large;
 }
 
+@media (max-width: 972px) {
+    a.shortly {
+        font-size: xx-large;
+        margin-top: 30px;
+    }
+}
+
 ul.choices {
     font-size: smaller;
-    /* font-weight: 600; */
+    text-decoration: none;
 }
 
 .nav-link.login {
@@ -22,3 +29,16 @@ button.sign-up {
 button.sign-up:hover {
     background-color: rgb(168, 227, 245);
 }
+
+/* @media (max-width: 972px) {
+    ul {
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        background-color: rgb(102, 45, 102);
+    }
+
+    ul li {
+        display: block;
+    }
+} */
