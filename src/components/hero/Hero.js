@@ -9,7 +9,7 @@ const Hero = () => {
 
     return (
 
-        <section className={'hero'}>
+        <section className={'hero top'}>
             <div className={'container'}>
                 <div className="row">
                     <div className="col-4">
@@ -23,21 +23,9 @@ const Hero = () => {
                             loading={'lazy'}
                             src={illustrationWorking}
                             alt={'Illustration Working'}
-                            // height={'200'}
-                            // width={'80'}
                         /> */}
                     </div>
                 </div>
-
-                {/* <div className="formbackground">
-                    <form>
-                        <input placeholder="Shorten a link here..." type="text"></input>
-                        <button class="btn btn-primary shorten-it" type="submit"><span>Shorten It!</span></button>
-                    </form>
-
-                </div> */}
-
-
             </div>
         </section>
 

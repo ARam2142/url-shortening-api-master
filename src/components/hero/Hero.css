@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); */
-div.col.illustration {
-    position: relative;
-}
+/* div.col.illustration {
+    /* position: relative; */
+    /* background-position: center-right -50px;
+}*/
 
-img#working {
-    position:absolute;
-    clip:rect(0px,600px,500px,0px);
+.hero.top {
+    padding: 150px 40px;
+    background: url('../images/illustration-working.svg');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center right -120px;
+    margin-bottom: 50px;
+
 }
 
 p {

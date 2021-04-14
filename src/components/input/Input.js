@@ -9,16 +9,17 @@ import React, {useState, useEffect} from "react";
 import "./inputApi.css"
 
 const CopyApi = () => {
-    const api = "https://api.shrtco.de/v2/shorten";
-    const [urls, setUrl] = useState([]);
+    const link = 'https://api.shrtco.de/v2/';
+    const [url, setUrl] = useState(['']);
 
     useEffect(() => {
-
+        fetch(link)
+            .then(res => console.log(res))
     })
 
     function handleSubmit(e) {
         e.preventDefault();
-        console.log(urls);
+        console.log(url);
     }
 
 
@@ -26,7 +27,7 @@ const CopyApi = () => {
     return (
         <div className="formbackground">
             <form onSubmit={handleSubmit}>
-                <input placeholder="Shorten a link here..." value={urls} type="text" onChange={(e) =>setUrl(e.target.value) }/>
+                <input placeholder="Shorten a link here..." value={url} type="text" onChange={(e) =>setUrl(e.target.value) }/>
                 <button className="btn btn-primary shorten-it" type="submit"><span>Shorten It!</span></button>
             </form>
             {/* <ul>
