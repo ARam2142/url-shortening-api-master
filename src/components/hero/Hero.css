@@ -1,9 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); */
-/* div.col.illustration {
-    /* position: relative; */
-    /* background-position: center-right -50px;
-}*/
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 .hero.top {
     padding: 150px 40px;
@@ -14,6 +10,10 @@
     margin-bottom: 50px;
 
 }
+
+/* h1 {
+    font-size: 275%;
+} */
 
 p {
     color: hsl(257, 7%, 63%);
